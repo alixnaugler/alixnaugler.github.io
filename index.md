@@ -1,3 +1,9 @@
+---
+layout: default
+title: Alix Naugler
+---
+
+
 # Alix Naugler  
 _PhD Student at Cornell University_  
 [Email](mailto:ann@cornell.edu) • [CV](/assets/CV_AlixNaugler_2025.pdf)
