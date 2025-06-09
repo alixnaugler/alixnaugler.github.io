@@ -18,7 +18,7 @@ I am a third-year PhD student in the Applied Economics and Management program at
 
 **Motivations for Mexican-US Migration: Does the Economy Matter?**  
 _with Stephen Conroy_  
-[Abstract] [Journal of Borderlands Studies (2018)]
+[Abstract] [Journal of Borderlands Studies (2018)](/assets/Motivations for Mesican US Migration Does the Economy Matter.pdf)
 
 ---
 
