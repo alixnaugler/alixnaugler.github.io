@@ -3,7 +3,7 @@ layout: default
 title: Alix Naugler
 ---
 
-![Alix Naugler](/assets/Alix_Naugler_ann34_2.jpg)
+![Alix Naugler](/assets/alixnaugler.jpg)
 ann34@cornell.edu | [CV](/assets/CV_AlixNaugler_2025.pdf)
 
 ---
