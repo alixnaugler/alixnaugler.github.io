@@ -1,13 +1,12 @@
 ---
 layout: default
+title: Alix Naugler
 ---
 
 ## Working Papers
 
 **Optimistic Entrepreneurs: Agro-dealer Turnover and Consumer Impacts in Tanzania**  
 _with Hope Michelson, Sarah Janzen, & Christopher Magomba_  
-[Abstract] | [Working Paper]
-
 <details>
 <summary><strong>Abstract</strong></summary>
 
@@ -19,8 +18,6 @@ can affect market functioning and consumer trust. We study agro-dealer turnover 
 ---
 
 **Formalization at a Cost: How Threshold-Based Policies Impact Firm Growth & Labor Composition Strategies**  
-[Abstract] | [Working Paper]
-
 <details>
 <summary><strong>Abstract</strong></summary>
 
@@ -35,7 +32,7 @@ on firm behavior, focusing on a provision in Vietnam’s Labor Code 2012. The po
 
 **Motivations for Mexican-US Migration: Does the Economy Matter?**  
 _with Stephen Conroy_  
-[Abstract] | [Journal of Borderlands Studies (2018)](/assets/Motivations_for_Mexican.pdf)
+[Journal of Borderlands Studies (2018)](/assets/Motivations_for_Mexican.pdf)
 
 <details>
 <summary><strong>Abstract</strong></summary>
