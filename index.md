@@ -23,9 +23,11 @@ _with Hope Michelson & Sarah Janzen_
     <a href="#" style="text-decoration:underline; color:#0366d6;">[Abstract]</a>
   </summary>
   <p>
-    Firm turnover (i.e., entry and exit) in markets characterized by information asymmetries can affect market functioning and consumer trust. We study agro-dealer turnover and its implications for smallholder farmers in rural Tanzania. Using a census of agro-dealers, we document annual agro-dealer entry and exit rates of 34 and 18 percent, respectively—more than double those typically observed for micro-, small-, and medium-enterprises (MSMEs) operating in nonagricultural sectors in low-income countries. Though few observable agro-dealer characteristics predict exit, we show that agro-dealer exit is more common where local competition is stronger. We develop a theoretical model of firm turnover under information asymmetries and test its predictions empirically. We find that farmers’ beliefs about agricultural input quality improve when agro-dealers exit, consistent with the model’s prediction that farmers believe agro-dealers selling low-quality agricultural inputs exit. However, farmers who regularly purchase agricultural inputs from the same agro-dealer have lower quality expectations for a new market entrant. These findings suggest that agro-dealer turnover plays an important role in shaping farmer perceptions of agricultural input quality and technology adoption, and that farmers use stable relationships with suppliers as a strategy to mitigate uncertainty in markets with information asymmetries.
+    Firm turnover (i.e., entry and exit) in markets characterized by information asymmetries
+can affect market functioning and consumer trust. We study agro-dealer turnover and its implications for smallholder farmers in rural Tanzania. Using a census of agro-dealers, we document annual agro-dealer entry and exit rates of 34 and 18 percent, respectively—more than double those typically observed for micro-, small-, and medium-enterprises (MSMEs) operating in nonagricultural sectors in low-income countries. Though few observable agro-dealer characteristics predict exit, we show that agro-dealer exit is more common where local competition is stronger. We develop a theoretical model of firm turnover under information asymmetries and test its predictions empirically. We find that farmers’ beliefs about agricultural input quality improve when agro-dealers exit, consistent with the model’s prediction that farmers believe agro-dealers selling low-quality agricultural inputs exit. However, farmers who regularly purchase agricultural inputs from the same agro-dealer have lower quality expectations for a new market entrant. These findings suggest that agro-dealer turnover plays an important role in shaping farmer perceptions of agricultural input quality and technology adoption, and that farmers use stable relationships with suppliers as a strategy to mitigate uncertainty in markets with information asymmetries.
   </p>
 </details>
+</span>
 
 **Formalization at a Cost: How Threshold-Based Policies Impact Firm Growth & Labor Composition Strategies**  
 <span style="display:inline-block; margin-right: 15px;">
@@ -34,9 +36,11 @@ _with Hope Michelson & Sarah Janzen_
     <a href="#" style="text-decoration:underline; color:#0366d6;">[Abstract]</a>
   </summary>
   <p>
-   This research examines the unintended consequences of size-dependent formalization policies
+    This research examines the unintended consequences of size-dependent formalization policies
 on firm behavior, focusing on a provision in Vietnam’s Labor Code 2012. The policy requires firms with at least 10 formally contracted, paid employees to comply with specific labor regulations, creating potential distortions in firm growth and labor composition by encouraging firms to limit their size or shift toward non-compliant labor arrangements. Using panel data of micro-, small-, and medium-enterprises in Vietnam, this study leverages a difference-in-discontinuities approach to isolate the policy’s localized temporal effects. It also groups firms into fully formal, partially formal, and fully informal dimensions, providing insights into whether firms adjust their formalization strategies in response to the policy. Results show that firms just below the threshold substitute toward unpaid full-time workers to avoid crossing this regulatory threshold that imposes higher compliance costs. Meanwhile, firms just above the threshold are more likely to be registered with the government but continue to rely on informal employment. This analysis overall evaluates how threshold-based policies shape firm strategies in a developing economy.
   </p>
+</details>
+</span>
 
 ---
 
@@ -54,8 +58,8 @@ _with Stephen Conroy_
   </p>
 </details>
 </span>
+<span style="display:inline-block; margin-right: 15px;">|</span>
 <span style="display:inline-block;">
   [<a href="/assets/Motivation_for_Mexican.pdf" target="_blank">Journal of Borderlands Studies (2018)</a>]
 </span>
 
----
