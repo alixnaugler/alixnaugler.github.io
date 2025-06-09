@@ -3,6 +3,16 @@ layout: default
 title: Alix Naugler
 ---
 
+(/assets/Alix Naugler_ann34_2.jpg)
+ann34@cornell.edu | [CV](/assets/CV_AlixNaugler_2025.pdf)
+
+---
+  I am a PhD student in the Applied Economics and Management program at Cornell University.  
+  My research lies at the intersection of development, industrial organization, and agricultural economics.  
+  I study how policy and market dynamics shape firm behavior, farmer beliefs, and economic outcomes in developing economies.
+
+----
+
 ## Working Papers
 
 **Optimistic Entrepreneurs: Agro-dealer Turnover and Consumer Impacts in Tanzania**  
@@ -32,7 +42,7 @@ on firm behavior, focusing on a provision in Vietnam’s Labor Code 2012. The po
 
 **Motivations for Mexican-US Migration: Does the Economy Matter?**  
 _with Stephen Conroy_  
-[Journal of Borderlands Studies (2018)](/assets/Motivations_for_Mexican.pdf)
+[Journal of Borderlands Studies (2018)](/assets/Motivations_for_Mexican_US_Migration_Does_the_Economy_Matter.pdf)
 
 <details>
 <summary><strong>Abstract</strong></summary>
