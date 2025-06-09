@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Alix Naugler
----
 
 # Alix Naugler  
 _PhD Student in Applied Economics & Management, Cornell University_  
@@ -40,7 +39,6 @@ can affect market functioning and consumer trust. We study agro-dealer turnover 
 on firm behavior, focusing on a provision in Vietnam’s Labor Code 2012. The policy requires firms with at least 10 formally contracted, paid employees to comply with specific labor regulations, creating potential distortions in firm growth and labor composition by encouraging firms to limit their size or shift toward non-compliant labor arrangements. Using panel data of micro-, small-, and medium-enterprises in Vietnam, this study leverages a difference-in-discontinuities approach to isolate the policy’s localized temporal effects. It also groups firms into fully formal, partially formal, and fully informal dimensions, providing insights into whether firms adjust their formalization strategies in response to the policy. Results show that firms just below the threshold substitute toward unpaid full-time workers to avoid crossing this regulatory threshold that imposes higher compliance costs. Meanwhile, firms just above the threshold are more likely to be registered with the government but continue to rely on informal employment. This analysis overall evaluates how threshold-based policies shape firm strategies in a developing economy.
   </p>
 </details>
-</span>
 
 ---
 
@@ -57,9 +55,9 @@ _with Stephen Conroy_
     This research examines Mexican immigrants’ motivations for crossing into the US to evaluate whether macroeconomic conditions affect these motivations. Using a data set of 44,017 Mexican migrants from 2010 through September 2016 and controlling for personal factors, results indicate economic motivations are moderated by US macroeconomic conditions and in the expected way, i.e. the US unemployment rate (growth rate) is inversely (directly) associated with economic motivations to cross into the US and positively associated with non-economic (familial-based) motivations. Results also suggest that Mexican migrants coming to the US in the wake of the Great Recession (i.e. in 2010 and 2011) were much less likely to cross for economic reasons than those crossing in 2015 and 2016, while those crossing in 2013 and 2014 were more likely to cross for economic reasons. We suspect nationalistic rhetoric amplified by Trump’s campaign for US president may have crowded out economic motivations as immigrants expected the proposed anti-immigrant policies to reduce the availability of US economic opportunities. Similar support for macroeconomic “push” effects from the Mexican economy were not found. Additionally, economic and familial-based motivations for migrating appear to be substitutes and both respond to US macroeconomic conditions though in opposite ways.
   </p>
 </details>
-</span>
+
 <span style="display:inline-block; margin-right: 15px;">|</span>
 <span style="display:inline-block;">
   [<a href="/assets/Motivation_for_Mexican.pdf" target="_blank">Journal of Borderlands Studies (2018)</a>]
-</span>
 
+---
