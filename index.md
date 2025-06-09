@@ -55,7 +55,7 @@ _with Stephen Conroy_
 </details>
 </span>
 <span style="display:inline-block;">
-  [<a href="/assets/Mexico_Migration_Study_2018.pdf" target="_blank">Journal of Borderlands Studies (2018)</a>]
+  [<a href="/assets/Motivation_for_Mexican.pdf" target="_blank">Journal of Borderlands Studies (2018)</a>]
 </span>
 
 ---
