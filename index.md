@@ -42,7 +42,7 @@ on firm behavior, focusing on a provision in Vietnam’s Labor Code 2012. The po
 
 **Motivations for Mexican-US Migration: Does the Economy Matter?**  
 _with Stephen Conroy_  
-[Journal of Borderlands Studies (2018)](/assets/Motivations_for_Mexican_US_Migration_Does_the_Economy_Matter.pdf)
+[Journal of Borderlands Studies (2018)](/assets/Motivations for Mexican US Migration Does the Economy Matter.pdf)
 
 <details>
 <summary><strong>Abstract</strong></summary>
