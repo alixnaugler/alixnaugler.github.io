@@ -1,9 +1,1 @@
-theme: jekyll-theme-minimalist
-title: Alix Naugler
-description: PhD student in Applied Economics & Mangement
-
-author:
-  avatar: "/assets/alixnaugler.jpg"
-  name: "Alix Naugler"
-  emloer: "Cornell University"
-  email: "ann@cornell.edu"
+theme: jekyll-theme-minimal
