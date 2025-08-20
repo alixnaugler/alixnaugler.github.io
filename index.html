@@ -51,9 +51,19 @@
         flex: 1; /* Takes up the remaining space */
       }
       
-    p, .abstract-text {
-        text-align: justify; /* Make all paragraph text justified */
-      }
+p {
+  text-align: justify;
+}
+
+.abstract-text {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .abstract-text {
+    text-align: left;
+  }
+}
       
       .collapsible {
         background-color: white;
