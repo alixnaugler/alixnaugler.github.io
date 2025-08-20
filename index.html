@@ -1,192 +1,205 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <!-- 👇 Critical for mobile responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="kjeKS23trXzODV6FOZ1XNWyAu0G-7x3LsSmlvnOu6zk" />
-    <title>Alix Naugler</title>
-
     <style>
-      :root{
-        --blue:#004C99;
-        --blue-2:#2874A6;
-        --text:#272c2e;
-        --muted:#3d4143;
+      .crimson-line {
+        border: 0;
+        height: 2px;
+        background-color: #004C99;
+        margin: 10px 0;
       }
 
-      /* Base */
-      * { box-sizing: border-box; }
+      a:link, a:visited, a:hover, a:active {
+        color: #004C99;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
       body {
-        font-family: "Garamond", Georgia, "Times New Roman", Times, serif;
+        font-family: "Garamond", Georgia, Times New Roman, Times, serif;
         margin: 0;
-        color: var(--text);
-        line-height: 1.5;
+        padding: 0;
       }
-      a { color: var(--blue); text-decoration: none; }
-      h1, h2 { color: var(--blue-2); margin: 0.4rem 0; }
-      p, .abstract-text { text-align: justify; }
 
-      /* Layout */
+      h1 {
+        color:  #2874A6;
+        ;
+      }
+
+      h2 {
+        color: #2874A6; /* Darker blue for h2 headings */
+      }
+
+      /* Container for two-column layout */
       .container {
         display: flex;
-        gap: 24px;
         max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
       }
 
-      /* Left column (bio) */
+      /* Left-side column for description, fixed width slightly larger than the image */
       header {
-        flex: 0 0 280px;           /* flexible but ~image width on desktop */
-        border-right: 1px solid #ccc;
+        width: 250px; /* Slightly wider than the image */
         padding-right: 20px;
+        border-right: 1px solid #ccc;
+        margin-right: 20px;
       }
 
-      /* Right column (content) */
-      section { flex: 1; }
-
-      /* Image: responsive */
-      header img {
-        display: block;
+      /* Right-side column for main content */
+      section {
+        flex: 1; /* Takes up the remaining space */
+      }
+      
+    p, .abstract-text {
+        text-align: justify; /* Make all paragraph text justified */
+      }
+      
+      .collapsible {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        padding: 12px;
         width: 100%;
-        max-width: 230px;          /* keep your intended size on large screens */
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 14px;
+      }
+
+      .active, .collapsible:hover {
+        background-color: white;
+      }
+
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: white;
+        font-size: 14px;
+      }
+
+      details {
+        display: inline-block;
+        position: relative;
+      }
+
+      summary {
+        list-style: none;
+        cursor: pointer;
+        margin-top: 0;
+      }
+
+      summary::-webkit-details-marker {
+        display: none;
+      }
+
+      /* 👇 ADDED: Make headshot image responsive */
+      header img {
+        width: 100%;
+        max-width: 230px;
         height: auto;
+        display: block;
       }
 
-      /* Minor components */
-      .crimson-line {
-        border: 0;
-        height: 2px;
-        background-color: var(--blue);
-        margin: 10px 0;
-      }
-      .collapsible,
-      .content,
-      details { font-size: 14px; }
-      details { display: inline-block; position: relative; }
-      summary { list-style: none; cursor: pointer; margin-top: 0; }
-      summary::-webkit-details-marker { display: none; }
-
-      /* Make lists breathe a bit */
-      ul { margin: 6px 0 0 18px; }
-
-      /* ====== Responsive rules ====== */
-      /* Tablet and below: stack columns */
       @media (max-width: 1024px) {
         .container {
           flex-direction: column;
-          padding: 16px;
         }
+
         header {
           border-right: none;
-          padding-right: 0;
           margin-right: 0;
-          flex-basis: auto;
+          padding-right: 0;
+          width: 100%; /* Full width for smaller screens */
         }
-        header img {
-          max-width: 200px;        /* slightly smaller on tablets */
-        }
-      }
-
-      /* Phones: center header, increase tap targets, adjust text */
-      @media (max-width: 600px) {
-        header {
-          text-align: center;
-        }
-        header img {
-          margin: 0 auto;
-          max-width: min(70vw, 220px);
-        }
-        h1 { font-size: 1.6rem; }
-        h2 { font-size: 1.25rem; margin-top: 1rem; }
-        .container { gap: 12px; }
-        p, .abstract-text { text-align: left; } /* easier to read on small screens */
-        .dropdown details { width: 100%; }
-        summary { padding: 8px 0; }
       }
     </style>
+    <meta charset="utf-8">
+    <!-- 👇 ADDED: Viewport meta for mobile scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="kjeKS23trXzODV6FOZ1XNWyAu0G-7x3LsSmlvnOu6zk" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Alix Naugler</title>
   </head>
-
   <body>
     <div class="container">
       <header>
-        <img src="assets/alixnaugler.JPG" alt="Alix Naugler" />
+        <img
+          src="assets/alixnaugler.JPG" alt="Alix Naugler"
+          width="230"
+        />
+        <p></p>
         <h1>Alix Naugler</h1>
 
-        <p style="text-align:left;color:var(--muted);">
-          <a href="mailto:ann34@cornell.edu">ann34@cornell.edu</a>
-        </p>
+        <p style="text-align: left;"><font color="#3d4143"> <a href="mailto:ann34@cornell.edu">ann34@cornell.edu</a> </font></p>
 
-        <p style="margin-top:20px;text-align:left;">
-          I am a third-year PhD student in the Applied Economics and Management program at Cornell University.
-          <br><br>
-          My research interests lie at the intersection of development, industrial organization, and agricultural economics. Broadly, I study how policy and market dynamics shape firm behavior, farmer beliefs, and economic outcomes in developing economies.
-          <br><br>
-          You can find my CV <a href="assets/CV_AlixNaugler_2025.pdf" target="_blank">here</a>.
+        <p style="margin-top: 20px; text-align: left; margin-bottom: 5px;"></p>
+            <font color="#272c2e">
+                I am a third-year PhD student in the Applied Economics and Management program at Cornell University. 
+            <br><br>
+              My research interests lie at the intersection of development, industrial organization, and agricultural economics. Broadly, I study how policy and market dynamics shape firm behavior, farmer beliefs, and economic outcomes in developing economies.
+              <br><br>
+          You can find my CV 
+          <a href="assets/CV_AlixNaugler_2025.pdf" target="_blank">here</a>.
+          </font>
+        </p>
         </p>
       </header>
 
       <section>
+        <!-- Working Papers section -->
         <h2>Working Papers</h2>
-
-        <strong>Firm Turnover under Asymmetric Information: Tanzania’s Agro-dealer Sector</strong>
-        <br>
-        <em>with Hope Michelson, Sarah Janzen, &amp; Christopher Magomba</em> (Submitted)
-        <br>
-
+        
+<!-- First paper -->
+        <strong>Firm Turnover under Asymmetric Information: Tanzania’s Agro-dealer Sector</strong> <br> <em>with Hope Michelson, Sarah Janzen, & Christopher Magomba</em> (Submitted)<br> 
         <div class="dropdown">
           <details>
-            <summary>Abstract</summary>
-            <p class="abstract-text">
-              We analyze firm turnover (i.e., entry and exit) and its consumer implications in a market characterized by asymmetric information. Using a census of agro-dealers in Tanzania's Morogoro Region, we document annual entry and exit rates of 34 and 18 percent, respectively. These rates are more than double those reported for micro-, small-, and medium-enterprises operating in non-agricultural sectors in similar low-income countries. Agro-dealer exit is more common in highly competitive markets and is not well predicted by observable agro-dealer characteristics. Motivated by these patterns, we develop a theoretical model of firm turnover under information asymmetries and test its predictions empirically. We find that farmers' beliefs about agricultural input quality improve following an agro-dealer's exit, consistent with our model's prediction that farmers believe exiting agro-dealers sold low-quality agricultural inputs. Moreover, farmers who regularly purchase agricultural inputs from the same agro-dealer expect new market entrants to provide lower-quality agricultural inputs. These findings suggest that agro-dealer turnover critically shapes farmers' technology adoption decisions. In markets with information asymmetries, repeated transactions with incumbents help farmers manage quality uncertainty.
-            </p>
-          </details>
+            <summary><font color="#004C99">Abstract</font></summary>
+            <p class="abstract-text">We analyze firm turnover (i.e., entry and exit) and its consumer implications in a market characterized by asymmetric information. Using a census of agro-dealers in Tanzania's Morogoro Region, we document annual entry and exit rates of 34 and 18 percent, respectively. These rates are more than double those reported for micro-, small-, and medium-enterprises operating in non-agricultural sectors in similar low-income countries. Agro-dealer exit is more common in highly competitive markets and is not well predicted by observable agro-dealer characteristics. Motivated by these patterns, we develop a theoretical model of firm turnover under information asymmetries and test its predictions empirically. We find that farmers' beliefs about agricultural input quality improve following an agro-dealer's exit, consistent with our model's prediction that farmers believe exiting agro-dealers sold low-quality agricultural inputs. Moreover, farmers who regularly purchase agricultural inputs from the same agro-dealer expect new market entrants to provide lower-quality agricultural inputs. These findings suggest that agro-dealer turnover critically shapes farmers' technology adoption decisions. In markets with information asymmetries, repeated transactions with incumbents help farmers manage quality uncertainty.</p>
+         </details>
+          <span style="border-left: 1px solid black; padding-left: 10px; margin-left: 10px;">
+          <a href="assets/Final Working Paper.pdf" target="_blank">Working Paper</a>
+<div style="margin-top: 0; padding-left: 30px;">
+  <p style="margin: 0;"><u>Presentations:</u></p>
+  <ul style="margin-top: 4px; margin-bottom: 0;">
+    <li>2025 Allied Social Science Associations (ASSA) Annual Meeting</li>
+    <li>2023 Agricultural and Applied Economics Association (AAEA) Annual Meeting</li>
+  </ul>
+</div>
 
-          <span style="border-left:1px solid #000;padding-left:10px;margin-left:10px;">
-            <a href="assets/Final Working Paper.pdf" target="_blank">Working Paper</a>
-          </span>
-          <div style="margin-top:0;padding-left:30px;">
-            <p style="margin:0;"><u>Presentations:</u></p>
-            <ul style="margin-top:4px;margin-bottom:0;">
-              <li>2025 Allied Social Science Associations (ASSA) Annual Meeting</li>
-              <li>2023 Agricultural and Applied Economics Association (AAEA) Annual Meeting</li>
-            </ul>
-          </div>
-        </div>
-
-        &nbsp;<br>
-
-        <strong>Formalization at a Cost: How Threshold-Based Policies Impact Firm Size &amp; Labor Composition Strategies</strong>
+        &nbsp;
+        <br>
+        <!-- Second paper -->
+        <strong>Formalization at a Cost: How Threshold-Based Policies Impact Firm Size & Labor Composition Strategies</strong>
         <div class="dropdown">
           <details>
-            <summary>Abstract (Draft Upon Request)</summary>
-            <p class="abstract-text">
-              This research examines the unintended consequences of size-dependent formalization policies on firm behavior, focusing on a provision in Vietnam’s Labor Code 2012. The policy requires firms with at least 10 formally contracted, paid employees to comply with specific labor regulations, creating potential distortions in firm growth and labor composition by encouraging firms to limit their size or shift toward non-compliant labor arrangements. Using panel data of micro-, small-, and medium-enterprises in Vietnam, this study leverages a difference-in-discontinuities approach to isolate the policy’s localized temporal effects. It also groups firms into fully formal, partially formal, and fully informal dimensions, providing insights into whether firms adjust their formalization strategies in response to the policy. Results show that firms just below the threshold substitute toward unpaid full-time workers to avoid crossing this regulatory threshold that imposes higher compliance costs. Meanwhile, firms just above the threshold are more likely to be registered with the government but continue to rely on informal employment. This analysis overall evaluates how threshold-based policies shape firm strategies in a developing economy.
-            </p>
+            <summary><font color="#004C99">Abstract</font> (Draft Upon Request)</summary>
+            <p class="abstract-text">This research examines the unintended consequences of size-dependent formalization policies on firm behavior, focusing on a provision in Vietnam’s Labor Code 2012. The policy requires firms with at least 10 formally contracted, paid employees to comply with specific labor regulations, creating potential distortions in firm growth and labor composition by encouraging firms to limit their size or shift toward non-compliant labor arrangements. Using panel data of micro-, small-, and medium-enterprises in Vietnam, this study leverages a difference-in-discontinuities approach to isolate the policy’s localized temporal effects. It also groups firms into fully formal, partially formal, and fully informal dimensions, providing insights into whether firms adjust their formalization strategies in response to the policy. Results show that firms just below the threshold substitute toward unpaid full-time workers to avoid crossing this regulatory threshold that imposes higher compliance costs. Meanwhile, firms just above the threshold are more likely to be registered with the government but continue to rely on informal employment. This analysis overall evaluates how threshold-based policies shape firm strategies in a developing economy.</p>
           </details>
         </div>
 
-        &nbsp;<br>
-
+        &nbsp;
+        <br>
         <h2>Publications</h2>
 
-        <strong>Naugler, A. N.</strong>, &amp; Conroy, S. J. (2018).
-        <a href="assets/Motivations for Mexican US Migration Does the Economy Matter.pdf" target="_blank">
-          <strong>Motivations for Mexican-US Migration: Does the Economy Matter?</strong>
-        </a>
-        <em>Journal of Borderlands Studies, 35</em>(4), 641–655.
+        <!-- First Other Publication -->
+        <strong>Naugler, A. N.</strong>, & Conroy, S. J. (2018).   <a href="assets/Motivations for Mexican US Migration Does the Economy Matter.pdf" target="_blank" style="color: #004C99;">
+    <strong>Motivations for Mexican-US Migration: Does the Economy Matter?</strong>
+  </a> 
+  <em>Journal of Borderlands Studies, 35</em>(4), 641–655.
         <br>
-
         <div class="dropdown">
           <details>
-            <summary>Abstract</summary>
-            <p class="abstract-text">
-              This research examines Mexican immigrants’ motivations for crossing into the US to evaluate whether macroeconomic conditions affect these motivations. Using a data set of 44,017 Mexican migrants from 2010 through September 2016 and controlling for personal factors, results indicate economic motivations are moderated by US macroeconomic conditions and in the expected way, i.e. the US unemployment rate (growth rate) is inversely (directly) associated with economic motivations to cross into the US and positively associated with non-economic (familial-based) motivations. Results also suggest that Mexican migrants coming to the US in the wake of the Great Recession (i.e. in 2010 and 2011) were much less likely to cross for economic reasons than those crossing in 2015 and 2016, while those crossing in 2013 and 2014 were more likely to cross for economic reasons. We suspect nationalistic rhetoric amplified by Trump’s campaign for US president may have crowded out economic motivations as immigrants expected the proposed anti-immigrant policies to reduce the availability of US economic opportunities. Similar support for macroeconomic “push” effects from the Mexican economy were not found. Additionally, economic and familial-based motivations for migrating appear to be substitutes and both respond to US macroeconomic conditions though in opposite ways.
-            </p>
+            <summary>
+              <span><font color="#004C99">Abstract</font></span>
+            </summary>
+            <p class="abstract-text">This research examines Mexican immigrants’ motivations for crossing into the US to evaluate whether macroeconomic conditions affect these motivations. Using a data set of 44,017 Mexican migrants from 2010 through September 2016 and controlling for personal factors, results indicate economic motivations are moderated by US macroeconomic conditions and in the expected way, i.e. the US unemployment rate (growth rate) is inversely (directly) associated with economic motivations to cross into the US and positively associated with non-economic (familial-based) motivations. Results also suggest that Mexican migrants coming to the US in the wake of the Great Recession (i.e. in 2010 and 2011) were much less likely to cross for economic reasons than those crossing in 2015 and 2016, while those crossing in 2013 and 2014 were more likely to cross for economic reasons. We suspect nationalistic rhetoric amplified by Trump’s campaign for US president may have crowded out economic motivations as immigrants expected the proposed anti-immigrant policies to reduce the availability of US economic opportunities. Similar support for macroeconomic “push” effects from the Mexican economy were not found. Additionally, economic and familial-based motivations for migrating appear to be substitutes and both respond to US macroeconomic conditions though in opposite ways.</p>
           </details>
         </div>
+
+        &nbsp;
+        <br>
       </section>
     </div>
   </body>
