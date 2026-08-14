@@ -52,8 +52,13 @@
       /* Selected maroon text such as Abstract */
       .maroon-text {
         color: var(--maroon);
+        text-decoration: none;
       }
 
+      summary:hover .maroon-text {
+      color: var(--maroon-hover);
+       text-decoration: underline;
+      }
       /* Container for two-column layout */
       .container {
         display: flex;
@@ -376,14 +381,14 @@
         <strong>Naugler, A. N.</strong>, & Conroy, S. J. (2018).
 
         <a
+          class="maroon-link"
           href="assets/Motivations for Mexican US Migration Does the Economy Matter.pdf"
           target="_blank"
-          style="color: #004C99;"
         >
           <strong>
-            Motivations for Mexican-US Migration: Does the Economy Matter?
+           Motivations for Mexican-US Migration: Does the Economy Matter?
           </strong>
-        </a>
+      </a>
 
         <em>Journal of Borderlands Studies, 35</em>(4), 641–655.
 
